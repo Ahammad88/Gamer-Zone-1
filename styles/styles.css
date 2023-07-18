@@ -115,6 +115,7 @@ nav{
     font-size: 48px;
     font-weight: 600;
     margin-bottom: 5px;
+    color: var(--text-color);
 }
 .goat{
     font-size: 95px;
@@ -143,6 +144,47 @@ nav{
 }
 .btn-2{
     background-color: #4EC5F7;
+}
+
+/* Purpose section styles */
+
+.purpose-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.purpose-images>img{
+    width: 800px;
+    height: 500px;
+}
+.purpose-details{
+    text-align: right;
+    margin-right: 40px;
+}
+.purpose-details>h1{
+    font-size: 48px;
+    font-weight: 700;
+    z-index: -1;
+    background: linear-gradient(to right, #F948B2, #8758F1);
+    -webkit-background-clip: text;
+    color: transparent;
+    margin-bottom: 10px;
+    
+    
+}
+.purpose-details>p, small{
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--text-color);
+    word-wrap: break-word;
+    margin-bottom: 5px;
+}
+.purpose-details>button {
+    margin-bottom: 20px;
+}
+.purpose-details>h2{
+    color: var(--text-color);
 }
 
 
@@ -190,6 +232,20 @@ nav{
         margin-left: 10px;
         
     }
+    /* Purpose section styles */
+    .purpose-section{
+        flex-direction: column;
+        
+    }
+    .purpose-details{
+        text-align: center;
+        margin-left: 40px;
+    }
+    .purpose-images>img{
+        width: 450px;
+        height: 300px;
+        margin-top: 50px;
+    }
 }
 
 
@@ -234,5 +290,19 @@ nav{
     .banner-heading{
         margin-left: 10px;
         
+    }
+      /* Purpose section styles */
+      .purpose-section{
+        flex-direction: column-reverse;
+        
+    }
+    .purpose-details{
+        text-align: justify;
+        margin-left: 40px;
+    }
+    .purpose-images>img{
+        width: 800px;
+        height: 500px;
+        margin-top: 50px;
     }
 }
