@@ -109,6 +109,7 @@ nav{
 }
 .banner-heading{
     margin-left: 110px;
+    
 }
 .play{
     font-size: 48px;
@@ -174,4 +175,17 @@ nav{
         margin-bottom: 30px;
     }
 
+    /* Banner styles */
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .banner-images>img{
+        width: 300px;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+    .banner-heading{
+        margin-left: 10px;
+        
+    }
 }
