@@ -155,7 +155,7 @@ nav{
     
 }
 .purpose-images>img{
-    width: 800px;
+    width: 750px;
     height: 500px;
 }
 .purpose-details{
@@ -224,7 +224,7 @@ nav{
         flex-direction: column-reverse;
     }
     .banner-images>img{
-        width: 300px;
+        width: 350px;
         height: 300px;
         margin-bottom: 50px;
     }
@@ -242,7 +242,7 @@ nav{
         margin-left: 40px;
     }
     .purpose-images>img{
-        width: 450px;
+        width: 370px;
         height: 300px;
         margin-top: 50px;
     }
